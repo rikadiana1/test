@@ -262,21 +262,17 @@ Ein GUI-Prototyp (z. B. mit **Streamlit**) ermöglicht:
 ```text
 data/
   raw/          # Originaldaten (z. B. PSP_Jan_Feb_2019.xlsx, unverändert)
-  interim/      # bereinigte Zwischendaten
-  processed/    # finale Daten für Modellierung
+ 
 
 notebooks/
   01_eda.ipynb          # Explorative Datenanalyse
-  02_feature_eng.ipynb  # Feature Engineering
   03_modeling.ipynb     # Modelltraining
   04_evaluation.ipynb   # Modellbewertung
 
 src/
-  __init__.py
   data_preparation.py   # Skripte zur Bereinigung
   feature_engineering.py
-  train_model.py
-  evaluate_model.py
+
 
 figures/                # Abbildungen
 
